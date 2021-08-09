@@ -16,23 +16,31 @@ p {
   text-align: center;
 }
 a {
-	background-color: silver;
-	border-radius: 20pt;
-	border: 2pt solid var(--AKDGBlue);
-	padding: 8pt;
+	padding-left: 40pt;
+	padding-right: 40pt;
+	background-color: transparent;
 	font-family: verdana;
 	color: var(--AKDGBlue); 
 	font-weight: bold;
 	font-size: 200%;
 	text-decoration: none;
-	margin: 0 auto;
+/* 	margin: 0 auto; */
 	text-align: center;
+
+}
+
+a[href*="https://forms.gle/ELNnrrFFsBY265VS9"] {
+	border-radius: 20pt;
+	border: 2pt solid var(--AKDGBlue);
+	padding: 8pt;
+
 	/*centering*/
 	margin-left: 40%;
 	margin-right: 40%;
-	justify-content: center;
+	justify-content: center; 
 	display: block;
-}
+ }
+
 /* mouse over link */
 a:hover {
   color: hotpink;
@@ -48,7 +56,7 @@ body, html {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("hendoOldBasketHeader.png");
 
   /* Set a specific height */
-  height: 50%;
+  height: 60%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -67,26 +75,26 @@ body, html {
   color: var(--AKDGBlue);
 }
 
-
 :root {
     --AKDGBlue: #009cd4; 
     --AKDGTextGrey: #948dad;
 }
-
 
 </style>
 </head>
 <body>
 	
 	<div class="hero-image">
+		<div class="header-menu">
+			<a href="about.html">About</a>
+			<a href="/link/to/page2">Courses</a>
+		</div>
+		
 	  <div class="hero-text">
 	    <h1>Auckland Disc Golf Club</h1>
 	  </div>
 	</div>
-	
-	
-	
-	
+		
 	<p>Auckland Disc Golf Club is a community club based in Auckland, New Zealand.</p>
 	<p>Established to help support the growth and sustainability of Disc Golf in the region.</p>
 
