@@ -66,6 +66,9 @@ a[href*="https://forms.gle/ELNnrrFFsBY265VS9"] {
 	display: block;
  }
 
+.body-div {
+	padding-top: 18px
+}
 
 /* The hero image */
 .hero-image {
