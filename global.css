@@ -54,6 +54,17 @@
 
 }
 
+a[href*="https://forms.gle/ELNnrrFFsBY265VS9"] {
+	border-radius: 20pt;
+	border: 2pt solid var(--AKDGBlue);
+	padding: 8pt;
+
+	/*centering*/
+	margin-left: 40%;
+	margin-right: 40%;
+	justify-content: center; 
+	display: block;
+ }
 
 
 /* The hero image */
