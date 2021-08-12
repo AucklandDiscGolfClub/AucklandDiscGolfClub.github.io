@@ -26,12 +26,13 @@
 }
 
 /* Change the link color to #111 (black) on hover */
-li.header-menu a:hover {
+.li-header-menu a:hover {
   background-color: #111;
 }
 
 .active {
   background-color: var(--AKDGBlue);
+  border-radius: 1.0pt;
 }
 
 .rounded-rect {
