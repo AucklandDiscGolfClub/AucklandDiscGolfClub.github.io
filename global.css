@@ -70,7 +70,7 @@ a[href*="https://forms.gle/ELNnrrFFsBY265VS9"] {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("hendoOldBasketHeader.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("hendoOldBasketHeader.jpg");
 
   /* Set a specific height */
   height: 60%;
