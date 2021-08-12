@@ -2,6 +2,9 @@
 <html>
 <head>
 <style>
+	
+	@import 'global.css';
+		
 h1 {
   color: var(--AKDGBlue);
   font-family: verdana;
@@ -14,19 +17,6 @@ p {
   font-family: verdana;
   font-size: 160%;
   text-align: center;
-}
-a {
-	padding-left: 40pt;
-	padding-right: 40pt;
-	background-color: transparent;
-	font-family: verdana;
-	color: var(--AKDGBlue); 
-	font-weight: bold;
-	font-size: 200%;
-	text-decoration: none;
-/* 	margin: 0 auto; */
-	text-align: center;
-
 }
 
 a[href*="https://forms.gle/ELNnrrFFsBY265VS9"] {
@@ -50,30 +40,6 @@ body, html {
     height: 100%;
 }
 
-/* The hero image */
-.hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("hendoOldBasketHeader.png");
-
-  /* Set a specific height */
-  height: 60%;
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-/* Place text in the middle of the image */
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: var(--AKDGBlue);
-}
 
 :root {
     --AKDGBlue: #009cd4; 
@@ -84,21 +50,23 @@ body, html {
 </head>
 <body>
 	
-	<div class="hero-image">
-		<div class="header-menu">
-			<a href="about.html">About</a>
-			<a href="/link/to/page2">Courses</a>
+	<div  class="hero-image">
+		<div class="hero-text">
+			<h1>Auckland Disc Golf Club</h1>
 		</div>
-		
-	  <div class="hero-text">
-	    <h1>Auckland Disc Golf Club</h1>
-	  </div>
 	</div>
+	
+	<ul class="ul-header-menu">
+		<li class="li-header-menu"><a class="active a-header-link" href="index.html">Home</a></li>
+		<li class="li-header-menu"><a class="a-header-link" href="events.html">Events</a></li>
+		<li class="li-header-menu"><a class="a-header-link" href="membership.html">Membership</a></li>
+		<li class="li-header-menu"><a class="a-header-link" href="about.html">About</a></li>
+	</ul>
 		
 	<p>Auckland Disc Golf Club is a community club based in Auckland, New Zealand.</p>
 	<p>Established to help support the growth and sustainability of Disc Golf in the region.</p>
 
-	<a href="https://forms.gle/ELNnrrFFsBY265VS9">Sign Up</a>
+	<a class ="rounded-rect" href="https://forms.gle/ELNnrrFFsBY265VS9">Sign Up</a>
 
 </body>
 </html>
