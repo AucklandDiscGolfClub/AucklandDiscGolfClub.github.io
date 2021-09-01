@@ -67,13 +67,31 @@ a[href*="https://forms.gle/ELNnrrFFsBY265VS9"] {
  }
 
 .body-div {
-	padding-top: 18px
+	padding-top: 18px;
+}
+
+div.floatleft {
+	float:left;
+}
+div.floatRight {
+	float:right;
+}
+div.centered {
+	text-align: center;
+	list-style-position:inside;
+	margin-left: auto;
+	margin-right: auto;
+}
+.event-year-div {
+	border-width: 1pt;
+	border-color: var(--AKDGSand);
+	background-color: green
 }
 
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("hendoOldBasketHeader.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://www.aucklanddiscgolf.com/hendoOldBasketHeader.jpg");
 
   /* Set a specific height */
   height: 60%;
@@ -96,7 +114,54 @@ a[href*="https://forms.gle/ELNnrrFFsBY265VS9"] {
 }
 
 
+h1 {
+  color: var(--AKDGBlue);
+  font-family: verdana;
+  font-size: 300%;
+  text-align: center;
+  text-shadow: 1px 3px 0.5px rgba(44, 49, 50, 0.81);
+}
+
+h2 {
+	color: var(--AKDGGreyerBlue);
+  font-family: verdana;
+  font-size: 200%;
+  text-align: center;
+  text-shadow: 1px 3px 0.5px rgba(44, 49, 50, 0.81);
+
+}
+p {
+  color: var(--AKDGPurleBlack);/*var(--AKDGTextGrey);*/
+  font-family: verdana;
+}
+.centered160 {
+	font-size: 160%;
+  text-align: center;
+  padding-left: 20%;
+  padding-right 20%;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  background-color: gray;
+}
+
+body {background-color: var(--AKDGWarmWhite);}
+
+
 :root {
-    --AKDGBlue: #009cd4; 
+	--AKDGBlue: #009cd4;
+	--AKDGGreyerBlue: #486183;
+	--AKDGLBlue: #88a2bc;
+	--AKDGSand: #f0dbb0;
+	--AKDGWarmWhite: #fff8f8;/*#efe8e9;*/
+	--AKDGPurleBlack: #160428;
+	
+	
+	
+    
     --AKDGTextGrey: #948dad;
+    
+    
 }
