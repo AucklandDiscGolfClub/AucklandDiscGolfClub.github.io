@@ -70,12 +70,27 @@ a[href*="https://forms.gle/ELNnrrFFsBY265VS9"] {
 	padding-top: 18px;
 }
 
+.row {
+	display: flex; /*equal height of the children*/
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.col {
+	flex: 1;
+	padding: 1em;
+	border: solid
+}
+
 div.floatleft {
 	float:left;
 }
 div.floatRight {
 	float:right;
 }
+
 div.centered {
 	text-align: center;
 	list-style-position:inside;
@@ -137,8 +152,6 @@ p {
 .centered160 {
 	font-size: 160%;
   text-align: center;
-  padding-left: 20%;
-  padding-right 20%;
 }
 
 /* mouse over link */
@@ -147,8 +160,16 @@ a:hover {
   background-color: gray;
 }
 
-body {background-color: var(--AKDGWarmWhite);}
+.div-padd{
+	display: inline-block;
+	background-color: var(--AKDGBabyBlue);
+	border-radius: 8.0pt;
+	text-align: center;
+	border-width: 2.0pt;
+	border-color:var(--AKDGGreyerBlue); 
+}
 
+body {background-color: var(--AKDGWarmWhite);}
 
 :root {
 	--AKDGBlue: #009cd4;
@@ -157,11 +178,8 @@ body {background-color: var(--AKDGWarmWhite);}
 	--AKDGSand: #f0dbb0;
 	--AKDGWarmWhite: #fff8f8;/*#efe8e9;*/
 	--AKDGPurleBlack: #160428;
-	
-	
-	
-    
+
+	--AKDGBabyBlue: #c1d3e3;
     --AKDGTextGrey: #948dad;
-    
     
 }
