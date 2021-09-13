@@ -77,9 +77,9 @@ a[href*="https://forms.gle/ELNnrrFFsBY265VS9"] {
 	margin-left: auto;
 	margin-right: auto;
 	
-display: flex;
-flex-direction: row;
-align-items: stretch;
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
 }
 
 .col {
@@ -92,6 +92,7 @@ align-items: stretch;
 div.floatleft {
 	float:left;
 }
+
 div.floatRight {
 	float:right;
 }
@@ -171,6 +172,12 @@ a:hover {
 	text-align: center;
 	border-width: 2.0pt;
 	border-color:var(--AKDGGreyerBlue); 
+	
+	padding-top: 5pt;
+	padding-right:10pt;
+	padding-bottom: 5pt;
+	padding-left: 10pt;
+	
 }
 
 body {background-color: var(--AKDGWarmWhite);}
