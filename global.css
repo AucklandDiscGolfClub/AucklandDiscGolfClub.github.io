@@ -180,6 +180,22 @@ a:hover {
 	
 }
 
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-item-left {
+  flex: 25%;
+}
+
+.flex-item-right {
+  flex: 25%;
+}
+.flex-item-padd {
+	flex: 10%
+}
+
 body {background-color: var(--AKDGWarmWhite);}
 
 :root {
