@@ -1699,6 +1699,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100vh;
 }
 
+.h-64 {
+  height: 16rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -1709,6 +1717,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-48 {
   width: 12rem;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .min-w-0 {
@@ -2029,6 +2041,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   overflow: hidden;
 }
 
+.overflow-visible {
+  overflow: visible;
+}
+
 .truncate {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -2133,6 +2149,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.object-center {
+  -o-object-position: center;
+     object-position: center;
 }
 
 .p-6 {
