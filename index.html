@@ -8,6 +8,9 @@
   <link rel="icon" type="image/x-icon" href="/favicon.ico?v=2">
   <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+  
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
   <style>
     .carousel-open:checked+.carousel-item {
       position: static;
@@ -66,17 +69,25 @@
     </div>
   </div>
 </nav>
-
-    <img class="object-cover object-center overflow-visible  w-screen h-96" src="hendoOldBasketHeader.jpg" >
-
+ <div class="w-screen h-96 flex justify-center">
+   <img class="object-cover object-center overflow-visible z-0 w-screen h-96" src="hendoOldBasketHeader.jpg" >
+   
+   <div class="absolute inset- flex justify-center items-center z-10 rounded-full mt-6 backdrop-opacity-95 backdrop-blur-md"> 
+     <lottie-player class="flex justify-center z-40" src="ADGCAnimatedWreath.json" background="transparent"  speed="0.15"  style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+  </div>
+   
+ </div>
+   
 	<div class="justify-center bg-blue-500/80 px-20 py-8">
     <p class="text-white text-lg">Auckland Disc Golf Club is a community club based in Auckland, New Zealand.
 	
-	Established to help support the growth and sustainability of Disc Golf recreational and competitive in the region.</p>
+	Established to help support the growth and sustainability of Disc Golf both recreational and competitive in the region.</p>
   
-  <p></p>	
+  
+  <p>Approaching Club Events, liaising with other organisations on behalf of Auckland disc golfers. Organising working bees for courses. from a non commercial entities perspective. </p>	
 </div>
 	
+
 	<div class="flex justify-center">
 		<button class="bg-gradient-to-r from-sky-500 to-blue-500 hover:bg-sky-700 rounded-lg p-4 mt-4 shadow-md text-white text-2xl" onclick="window.location.href='https://forms.gle/NiqCXwtPvtZujkdY9';">
 		  Sign Up
