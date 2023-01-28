@@ -14,6 +14,27 @@
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
   <style>
+    
+    <!-- animated background -->
+    .background-animate {
+      background-size: 400%;
+    
+      -webkit-animation: AnimationName 3s ease infinite;
+      -moz-animation: AnimationName 3s ease infinite;
+      animation: AnimationName 3s ease infinite;
+    }
+    
+    @keyframes AnimationName {
+      0%,
+      100% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+    }
+    
+    
     .carousel-open:checked+.carousel-item {
       position: static;
       opacity: 100;
@@ -88,7 +109,10 @@
 </div>
 
 	<div class="flex justify-center">
-		<button class="bg-gradient-to-b from-sky-500 to-blue-500 hover:from-blue-500 hover:to-blue-600 rounded-lg p-4 mt-4 mb-4 shadow-md hover:shadow-sm text-white hover:text-white/75 text-2xl" onclick="window.location.href='https://forms.gle/NiqCXwtPvtZujkdY9';">
+		<button class=" bg-gradient-to-b
+    from-pink-500
+    via-red-500
+    to-yellow-500 background-animate rounded-lg p-4 mt-4 mb-4 shadow-md hover:shadow-sm text-white hover:text-white/75 text-2xl" onclick="window.location.href='https://forms.gle/NiqCXwtPvtZujkdY9';">
 		  Sign Up
 		</button>
 	</div>
