@@ -7,7 +7,8 @@ module.exports = {
         'natural-green': '#57716c',
         'lighter-green': '#89aaae',
         'warning-coral': '#d77677',
-        'ADGC-logo-blue': '#0077b2',
+        'LogoBlue': '#0077b2',
+        'LogoRed': '#E4002B'
       },
       'animation': {
           'text':'text 5s ease infinite',
